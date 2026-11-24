@@ -1,0 +1,1382 @@
+{
+  "title": {
+    "en": "IntelliJ IDEA Offline Plugin Pack",
+    "tr": "IntelliJ IDEA Çevrimdışı Eklenti Paketi"
+  },
+  "categories": [
+    {
+      "id": "productivity",
+      "en": "Productivity",
+      "tr": "Verimlilik"
+    },
+    {
+      "id": "appearance",
+      "en": "Appearance",
+      "tr": "Görünüm"
+    },
+    {
+      "id": "git-project",
+      "en": "Git & Project",
+      "tr": "Git ve Proje"
+    },
+    {
+      "id": "code-quality",
+      "en": "Code Quality",
+      "tr": "Kod Kalitesi"
+    },
+    {
+      "id": "java-spring-data",
+      "en": "Java / Spring / Data",
+      "tr": "Java / Spring / Veri"
+    },
+    {
+      "id": "files-diagrams",
+      "en": "Files & Diagrams",
+      "tr": "Dosya ve Diyagram"
+    },
+    {
+      "id": "optional",
+      "en": "Optional",
+      "tr": "Opsiyonel"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "key-promoter-x",
+      "name": {
+        "en": "Key Promoter X",
+        "tr": "Key Promoter X"
+      },
+      "version": "2026.1.2",
+      "file": "plugins/Key_Promoter_X-2026.1.2.zip",
+      "pluginId": "Key Promoter X",
+      "pluginVersion": "2026.1.2",
+      "sinceBuild": "241",
+      "untilBuild": null,
+      "category": "productivity",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/key-promoter-x-1.png",
+        "docs/images/key-promoter-x-2.gif"
+      ],
+      "text": {
+        "en": {
+          "summary": "Shows you the keyboard shortcut of every action you perform with the mouse or from a menu.",
+          "why": "You learn keyboard shortcuts naturally and reach for the mouse less. It also suggests assigning a shortcut to frequently used actions that have none.",
+          "changes": "A small notification balloon appears in the bottom right when you use a menu item or toolbar button with the mouse. A new 'Key Promoter X' tool window is added.",
+          "usage": [
+            "Works automatically after installation.",
+            "View › Tool Windows › Key Promoter X: statistics of the actions you most often perform with the mouse.",
+            "Settings: Settings › Tools › Key Promoter X"
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Menüden veya fareyle yaptığınız her işlemin klavye kısayolunu size bildirir.",
+          "why": "Klavye kısayollarını doğal yoldan öğrenmenizi sağlar, fareye daha az uzanarak daha hızlı çalışırsınız. Kısayolu olmayan ama sık kullandığınız işlemler için kısayol atamayı önerir.",
+          "changes": "Fareyle bir menü veya araç çubuğu düğmesi kullandığınızda sağ altta küçük bir bildirim balonu çıkar. 'Key Promoter X' adında yeni bir araç penceresi eklenir.",
+          "usage": [
+            "Kurulumdan sonra kendiliğinden çalışır.",
+            "View › Tool Windows › Key Promoter X: en çok fareyle yaptığınız işlemlerin istatistiği.",
+            "Ayarlar: Settings › Tools › Key Promoter X"
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "Key Promoter X",
+      "unpackedSize": 68161,
+      "size": 66926,
+      "sha256": "dd76969715fb8d1d2e1f1fee4e9961c8f9b0d49f835a2c7a7d0c1e71709fae4c"
+    },
+    {
+      "id": "string-manipulation",
+      "name": {
+        "en": "String Manipulation",
+        "tr": "String Manipulation"
+      },
+      "version": "9.16.0",
+      "file": "plugins/StringManipulation-9.16.0.zip",
+      "pluginId": "String Manipulation",
+      "pluginVersion": "9.16.0",
+      "sinceBuild": "243",
+      "untilBuild": null,
+      "category": "productivity",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/string-manipulation-1.gif",
+        "docs/images/string-manipulation-2.gif"
+      ],
+      "text": {
+        "en": {
+          "summary": "Dozens of transformations on selected text: camelCase / snake_case / kebab-case / CONSTANT_CASE, sorting, removing duplicates, Base64/URL/HTML encode-decode, escaping.",
+          "why": "Small but frequent chores such as renaming conventions, cleaning SQL or JSON text and sorting lines are done with one key instead of by hand.",
+          "changes": "A 'String Manipulation' submenu is added to the Edit menu and the context menu. Alt+M opens the list of actions.",
+          "usage": [
+            "Select text → Alt+M → choose an action.",
+            "Or Edit › String Manipulation."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Seçili metin üzerinde onlarca dönüşüm: camelCase / snake_case / kebab-case / CONSTANT_CASE, sıralama, tekrar silme, Base64/URL/HTML encode-decode, escape.",
+          "why": "İsimlendirme dönüşümleri, SQL veya JSON metinlerini düzenleme, satır sıralama gibi küçük ama sık yapılan işleri elle yapmak yerine tek tuşla yaparsınız.",
+          "changes": "Edit menüsüne ve sağ tık menüsüne 'String Manipulation' alt menüsü eklenir. Alt+M kısayolu işlem listesini açar.",
+          "usage": [
+            "Metni seçin → Alt+M → işlemi seçin.",
+            "Veya Edit › String Manipulation menüsü."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "StringManipulation",
+      "unpackedSize": 2350915,
+      "size": 2103903,
+      "sha256": "c99721c6fd006168a2f696d4d9f884f89a7b71cc47cf120c4b803556a0c57950"
+    },
+    {
+      "id": "rainbow-brackets-lite",
+      "name": {
+        "en": "Rainbow Brackets Lite",
+        "tr": "Rainbow Brackets Lite"
+      },
+      "version": "1.3.0",
+      "file": "plugins/intellij-rainbow-brackets-lite-1.3.0.zip",
+      "pluginId": "izhangzhihao.rainbow.brackets.lite",
+      "pluginVersion": "1.3.0",
+      "sinceBuild": "223",
+      "untilBuild": null,
+      "category": "appearance",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/rainbow-brackets-lite-illustration.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Colors nested brackets ( ) [ ] { } < > by depth.",
+          "why": "In long lambda chains, nested method calls and JSON structures you see at a glance which bracket closes which. Free and open source version of the paid Rainbow Brackets plugin.",
+          "changes": "All brackets in the editor are colored by nesting level. Colors can be changed under Settings › Editor › Color Scheme.",
+          "usage": [
+            "Works automatically.",
+            "For settings, type 'rainbow' in the Settings search box."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "İç içe parantezleri ( ) [ ] { } < > derinliklerine göre farklı renklerle boyar.",
+          "why": "Uzun lambda zincirlerinde, iç içe metot çağrılarında ve JSON yapılarında hangi parantezin hangisiyle kapandığını bir bakışta görürsünüz. Ücretli Rainbow Brackets eklentisinin ücretsiz ve açık kaynak sürümüdür.",
+          "changes": "Editördeki tüm parantezler seviyelerine göre renkli görünür. Renkler Settings › Editor › Color Scheme altından değiştirilebilir.",
+          "usage": [
+            "Kendiliğinden çalışır.",
+            "Ayarlar için Settings arama kutusuna 'rainbow' yazın."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "intellij-rainbow-brackets-lite",
+      "unpackedSize": 207240,
+      "size": 189681,
+      "sha256": "6c1d677ca574021ed66070f0f2a70ad8ff443ff36460a52e8c05dc09ee3d4063"
+    },
+    {
+      "id": "indent-rainbow",
+      "name": {
+        "en": "Indent Rainbow",
+        "tr": "Indent Rainbow"
+      },
+      "version": "2.2.0",
+      "file": "plugins/Indent_Rainbow-2.2.0-signed.zip",
+      "pluginId": "indent-rainbow.indent-rainbow",
+      "pluginVersion": "2.2.0",
+      "sinceBuild": "232",
+      "untilBuild": null,
+      "category": "appearance",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/indent-rainbow-1.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Shows indentation levels as subtle colored stripes and highlights wrong indentation in red.",
+          "why": "In YAML, Python and nested XML, where indentation has meaning, you catch mistakes early.",
+          "changes": "Leading whitespace is tinted with soft colors per level.",
+          "usage": [
+            "Works automatically.",
+            "Settings: type 'indent rainbow' in the Settings search box."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Girinti seviyelerini hafif renkli şeritlerle gösterir, hatalı girintiyi kırmızıyla işaretler.",
+          "why": "YAML, Python ve iç içe XML gibi girintinin anlam taşıdığı dosyalarda hataları erkenden fark edersiniz.",
+          "changes": "Satır başlarındaki boşluklar seviyeye göre soluk renklerle boyanır.",
+          "usage": [
+            "Kendiliğinden çalışır.",
+            "Ayarlar: Settings arama kutusuna 'indent rainbow' yazın."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "Indent Rainbow",
+      "unpackedSize": 192230,
+      "size": 181906,
+      "sha256": "18f372bc0393a89da902b719689a19c64513578ba01df7f9cebfaab9a2e62c1a"
+    },
+    {
+      "id": "grep-console",
+      "name": {
+        "en": "Grep Console",
+        "tr": "Grep Console"
+      },
+      "version": "13.3.0",
+      "file": "plugins/GrepConsole-13.3.0-IJ2023.3.zip",
+      "pluginId": "GrepConsole",
+      "pluginVersion": "13.3.0-IJ2023.3",
+      "sinceBuild": "233",
+      "untilBuild": null,
+      "category": "productivity",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/grep-console-1.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Colors, hides or filters lines in the Run/Debug console into a separate tab based on patterns. Follows log files live inside the IDE.",
+          "why": "In long log output you spot ERROR and WARN lines immediately and hide noisy DEBUG lines.",
+          "changes": "A Grep Console icon is added to the console toolbar and 'Grep' to the console context menu. With the default rules ERROR and WARN lines are colored.",
+          "usage": [
+            "Select text in the console → right click → Grep: opens a new filtered console tab.",
+            "Add coloring rules from the icon in the console toolbar.",
+            "With Tail you can follow a log file live inside the IDE."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Run/Debug konsolundaki satırları desenlere göre renklendirir, gizler veya ayrı sekmeye süzer. Log dosyalarını IDE içinde canlı izler.",
+          "why": "Uzun log çıktılarında ERROR ve WARN satırlarını anında görür, gürültülü DEBUG satırlarını gizlersiniz.",
+          "changes": "Konsol araç çubuğuna Grep Console simgesi, sağ tık menüsüne 'Grep' seçeneği eklenir. Varsayılan kurallarla ERROR ve WARN satırları renklenir.",
+          "usage": [
+            "Konsolda metin seçin → sağ tık → Grep: süzülmüş yeni bir konsol sekmesi açılır.",
+            "Konsol araç çubuğundaki simgeden renklendirme kuralları eklenir.",
+            "Tail özelliği ile bir log dosyasını IDE içinde canlı izleyebilirsiniz."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "GrepConsole",
+      "unpackedSize": 3677772,
+      "size": 3274799,
+      "sha256": "4c9362fcf4cc55c26b5ece8d16ce2dc1e90821290f98cf862a4c98d71a704f4c"
+    },
+    {
+      "id": "ignore",
+      "name": {
+        "en": ".ignore",
+        "tr": ".ignore"
+      },
+      "version": "4.5.7",
+      "file": "plugins/ignore-4.5.7.zip",
+      "pluginId": "mobi.hsz.idea.gitignore",
+      "pluginVersion": "4.5.7",
+      "sinceBuild": "252",
+      "untilBuild": null,
+      "category": "git-project",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/ignore-1.gif",
+        "docs/images/ignore-2.gif"
+      ],
+      "text": {
+        "en": {
+          "summary": "Adds highlighting and completion for .gitignore, .dockerignore, .npmignore and similar files. Generates .gitignore files from templates.",
+          "why": "You create the right .gitignore from ready-made templates (Java, Maven, IntelliJ…) in seconds. Templates are bundled, no internet needed.",
+          "changes": "'.ignore File' is added to the New menu and 'Add to .gitignore' to the context menu. Ignored files appear grey in the project tree.",
+          "usage": [
+            "Right click in the project tree → New › .ignore File › .gitignore File (Git) → pick templates.",
+            "Right click a file → Add to .gitignore"
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": ".gitignore, .dockerignore, .npmignore gibi dosyalara renklendirme ve tamamlama ekler. Hazır şablonlarla .gitignore üretir.",
+          "why": "Doğru .gitignore'u hazır şablonlardan (Java, Maven, IntelliJ…) saniyeler içinde oluşturursunuz. Şablonlar eklentinin içinde gelir, internet gerekmez.",
+          "changes": "New menüsüne '.ignore File' eklenir, sağ tık menüsüne 'Add to .gitignore' gelir. Yok sayılan dosyalar proje ağacında gri görünür.",
+          "usage": [
+            "Proje ağacında sağ tık → New › .ignore File › .gitignore File (Git) → şablonları seçin.",
+            "Bir dosyaya sağ tık → Add to .gitignore"
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "ignore",
+      "unpackedSize": 814857,
+      "size": 694168,
+      "sha256": "e003ec0e1a89514465f36c4aa12c89fff723aa6852edc5ae6600210e132477be"
+    },
+    {
+      "id": "gittoolbox",
+      "name": {
+        "en": "GitToolBox",
+        "tr": "GitToolBox"
+      },
+      "version": "600.3.6",
+      "file": "plugins/gittoolbox-600.3.6_261-signed.zip",
+      "pluginId": "zielu.gittoolbox",
+      "pluginVersion": "600.3.6+261",
+      "sinceBuild": "261.23567",
+      "untilBuild": "262.*",
+      "category": "git-project",
+      "offline": "partial",
+      "recommended": false,
+      "images": [
+        "docs/images/gittoolbox-1.gif",
+        "docs/images/gittoolbox-2.gif"
+      ],
+      "text": {
+        "en": {
+          "summary": "Inline git blame, branch and ahead/behind status, commit message completion, auto fetch.",
+          "why": "You see who changed a line, when and in which commit without leaving the editor.",
+          "changes": "Blame information appears faintly at the end of the current line. Branch name and ahead/behind counts appear next to modules in the project tree. Branch info is added to the status bar.",
+          "usage": [
+            "Works automatically.",
+            "Settings: type 'GitToolBox' in the Settings search box.",
+            "Turn off 'Auto Fetch' if no git server is reachable."
+          ],
+          "requirements": [
+            "Freemium: basic features are free; some features need a license, and license validation needs internet access."
+          ]
+        },
+        "tr": {
+          "summary": "Satır içi git blame, dal ve ahead/behind durumu, commit mesajı tamamlama, otomatik fetch.",
+          "why": "Bir satırı kimin, ne zaman ve hangi commit ile değiştirdiğini editörden ayrılmadan görürsünüz.",
+          "changes": "İmlecin bulunduğu satırın sonunda soluk renkle blame bilgisi görünür. Proje ağacında modül adlarının yanında dal adı ve ahead/behind sayıları çıkar. Durum çubuğuna dal bilgisi eklenir.",
+          "usage": [
+            "Kendiliğinden çalışır.",
+            "Ayarlar: Settings arama kutusuna 'GitToolBox' yazın.",
+            "Ulaşılabilir bir git sunucusu yoksa 'Auto Fetch' ayarını kapatın."
+          ],
+          "requirements": [
+            "Freemium: temel özellikler ücretsizdir, bazı özellikler lisans ister ve lisans kontrolü internet gerektirir."
+          ]
+        }
+      },
+      "zipRoot": "gittoolbox",
+      "unpackedSize": 12853947,
+      "size": 11927585,
+      "sha256": "d1dad5c62050994add6d8b707b057fb94341f2ced2ba97ead1159aeae4457881"
+    },
+    {
+      "id": "maven-helper",
+      "name": {
+        "en": "Maven Helper",
+        "tr": "Maven Helper"
+      },
+      "version": "5.1.0",
+      "file": "plugins/MavenHelper-5.1.0-IJ2026.1.zip",
+      "pluginId": "MavenRunHelper",
+      "pluginVersion": "5.1.0-IJ2026.1",
+      "sinceBuild": "261",
+      "untilBuild": null,
+      "category": "git-project",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/maven-helper-1.png",
+        "docs/images/maven-helper-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Dependency Analyzer tab for pom.xml: finds dependency conflicts, shows the tree and adds exclusions with one click.",
+          "why": "You quickly find the cause of version-conflict errors such as 'NoSuchMethodError' and clean up unnecessary transitive dependencies.",
+          "changes": "A 'Dependency Analyzer' tab is added at the bottom of the editor when a pom.xml is open. 'Run Maven' and 'Debug Maven' are added to the context menu.",
+          "usage": [
+            "Open pom.xml → Dependency Analyzer tab at the bottom.",
+            "In the Conflicts view right click a conflict → Exclude."
+          ],
+          "requirements": [
+            "IDEA's Maven component must be enabled (it is by default).",
+            "Dependencies must be available in the local ~/.m2 repository or an internal Nexus/Artifactory."
+          ]
+        },
+        "tr": {
+          "summary": "pom.xml için Dependency Analyzer sekmesi: bağımlılık çakışmalarını bulur, ağacı gösterir, tek tıkla exclusion ekler.",
+          "why": "'NoSuchMethodError' gibi sürüm çakışması hatalarının kaynağını hızla bulur, gereksiz geçişli bağımlılıkları temizlersiniz.",
+          "changes": "pom.xml açıldığında editörün altına 'Dependency Analyzer' sekmesi eklenir. Sağ tık menüsüne 'Run Maven' ve 'Debug Maven' gelir.",
+          "usage": [
+            "pom.xml açın → alttaki Dependency Analyzer sekmesi.",
+            "Conflicts görünümünde çakışmaya sağ tık → Exclude."
+          ],
+          "requirements": [
+            "IDEA'nın Maven bileşeni açık olmalı (varsayılan olarak açıktır).",
+            "Bağımlılıklar yerel ~/.m2 deposunda veya kurum içi Nexus/Artifactory'de bulunmalı."
+          ]
+        }
+      },
+      "zipRoot": "MavenHelper",
+      "unpackedSize": 2486929,
+      "size": 2238268,
+      "sha256": "1aa5819934cd05fb72655dfc0b78521399ac05e51ce2d1395a6bb1634a9c3c38"
+    },
+    {
+      "id": "envfile",
+      "name": {
+        "en": "EnvFile",
+        "tr": "EnvFile"
+      },
+      "version": "5.0.1",
+      "file": "plugins/EnvFile-5.0.1.zip",
+      "pluginId": "net.ashald.envfile",
+      "pluginVersion": "5.0.1",
+      "sinceBuild": "243",
+      "untilBuild": null,
+      "category": "git-project",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/envfile-1.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Loads environment variables into Run/Debug configurations from .env, .json or .yaml files.",
+          "why": "Values such as database passwords, profiles and URLs live in a .env file instead of being typed into each configuration.",
+          "changes": "An 'EnvFile' tab is added to the Run › Edit Configurations dialog.",
+          "usage": [
+            "Run › Edit Configurations… → EnvFile tab → Enable EnvFile → add the .env file with +."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Run/Debug yapılandırmalarına .env, .json veya .yaml dosyalarından ortam değişkeni yükler.",
+          "why": "Veritabanı parolası, profil ve URL gibi değerleri yapılandırmalara tek tek yazmak yerine bir .env dosyasında tutarsınız.",
+          "changes": "Run › Edit Configurations penceresine 'EnvFile' sekmesi eklenir.",
+          "usage": [
+            "Run › Edit Configurations… → EnvFile sekmesi → Enable EnvFile → + ile .env dosyasını ekleyin."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "EnvFile",
+      "unpackedSize": 4524217,
+      "size": 4048974,
+      "sha256": "30327e2f5b59b00c34fab3ca385a116c6c1c10acc38167abccaa9133126f3488"
+    },
+    {
+      "id": "sonarqube",
+      "name": {
+        "en": "SonarQube for IDE",
+        "tr": "SonarQube for IDE"
+      },
+      "version": "13.3.0",
+      "file": "plugins/sonarlint-intellij-13.3.0.95473.zip",
+      "pluginId": "org.sonarlint.idea",
+      "pluginVersion": "13.3.0.95473",
+      "sinceBuild": "242.20224.300",
+      "untilBuild": null,
+      "category": "code-quality",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/sonarqube-1.png",
+        "docs/images/sonarqube-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Formerly SonarLint. Detects bugs, vulnerabilities and code smells while you type in Java, Kotlin, JS/TS, Python, XML and many other languages.",
+          "why": "You catch problems while writing code, before code review. Each finding explains why it is a problem and how to fix it.",
+          "changes": "Problematic code is underlined. A 'SonarQube for IDE' tool window is added. Analyzers are bundled (~274 MB). In large projects the first analysis can take a while.",
+          "usage": [
+            "Works automatically. Alt+Enter on underlined code shows the explanation and quick fixes.",
+            "Whole project: right click → SonarQube for IDE › Analyze with SonarQube for IDE.",
+            "Offline, do not set up 'Connected Mode'; standalone mode works fully."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Eski adı SonarLint. Java, Kotlin, JS/TS, Python, XML ve daha birçok dilde yazarken hata, güvenlik açığı ve kod kokusu tespit eder.",
+          "why": "Hataları daha kod incelemesine gelmeden, yazarken yakalarsınız. Her bulgu için nedenini ve düzeltme yolunu açıklar.",
+          "changes": "Sorunlu kodun altı çizilir. 'SonarQube for IDE' araç penceresi eklenir. Analizciler eklentinin içinde gelir (~274 MB). Büyük projelerde ilk açılışta analiz biraz zaman alabilir.",
+          "usage": [
+            "Kendiliğinden çalışır. Altı çizili koda Alt+Enter ile açıklama ve hızlı düzeltme gelir.",
+            "Tüm proje için: sağ tık → SonarQube for IDE › Analyze with SonarQube for IDE.",
+            "Internetsiz ortamda 'Connected Mode' kurmayın, tek başına mod tam çalışır."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "sonarlint-intellij",
+      "unpackedSize": 325797123,
+      "size": 274269481,
+      "sha256": "d7d1157a77a3eacf4dc4428019500890bd4b5d840cc8441437462e86572000a9",
+      "parts": 3
+    },
+    {
+      "id": "checkstyle",
+      "name": {
+        "en": "CheckStyle-IDEA",
+        "tr": "CheckStyle-IDEA"
+      },
+      "version": "26.20.0",
+      "file": "plugins/checkstyle-idea-26.20.0.zip",
+      "pluginId": "CheckStyle-IDEA",
+      "pluginVersion": "26.20.0",
+      "sinceBuild": "261",
+      "untilBuild": null,
+      "category": "code-quality",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/checkstyle-1.png",
+        "docs/images/checkstyle-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Checks code against Checkstyle rules: indentation, naming, Javadoc, import order. Checkstyle 14.4.0 is bundled.",
+          "why": "You apply your team's code style (Google, Sun or your own checkstyle.xml) live in the IDE.",
+          "changes": "A 'CheckStyle' tool window is added. Once a rules file is active, style violations are marked in the editor. A 'Scan with Checkstyle' option is added to the commit dialog.",
+          "usage": [
+            "Settings › Tools › Checkstyle → choose the bundled version 14.4.0 (other versions are downloaded from the internet).",
+            "Configuration File: Google/Sun Checks or a local checkstyle.xml via +.",
+            "CheckStyle tool window → Check Current File / Module / Project."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Kodu Checkstyle kurallarına göre denetler: girinti, isimlendirme, Javadoc, import sırası. Checkstyle 14.4.0 eklentinin içinde gelir.",
+          "why": "Takımın kod stili standardını (Google, Sun veya kurumunuzun checkstyle.xml'i) IDE içinde anlık uygularsınız.",
+          "changes": "'CheckStyle' araç penceresi eklenir. Aktif bir kural dosyası seçilince stil ihlalleri editörde işaretlenir. Commit penceresine 'Scan with Checkstyle' seçeneği gelir.",
+          "usage": [
+            "Settings › Tools › Checkstyle → sürüm olarak gömülü 14.4.0'ı seçin (diğer sürümler internetten indirilir).",
+            "Configuration File: Google/Sun Checks veya + ile yerel checkstyle.xml.",
+            "CheckStyle aracı → Check Current File / Module / Project."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "checkstyle-idea",
+      "unpackedSize": 17788489,
+      "size": 16224179,
+      "sha256": "71e55c586403d56fad7d39be542f783d50e3a3e500b363801a9bdb539b3634cf"
+    },
+    {
+      "id": "spotbugs",
+      "name": {
+        "en": "SpotBugs (spotbugs-idea)",
+        "tr": "SpotBugs (spotbugs-idea)"
+      },
+      "version": "1.2.8",
+      "file": "plugins/spotbugs-idea-1.2.8.zip",
+      "pluginId": "org.jetbrains.plugins.spotbugs",
+      "pluginVersion": "1.2.8",
+      "sinceBuild": "222.1",
+      "untilBuild": null,
+      "category": "code-quality",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/spotbugs-1.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Successor of FindBugs. Finds patterns such as null dereferences, equals/hashCode mismatches, unclosed resources and synchronization mistakes in compiled Java classes. Bundles the SpotBugs 4.8.6 engine.",
+          "why": "It works on bytecode, so it catches bugs that source code analyzers miss. With the Find Security Bugs rules it also scans for vulnerabilities.",
+          "changes": "A 'SpotBugs' tool window and a 'SpotBugs' submenu in the context menu are added. Analysis only runs when you start it, so the editor is not slowed down.",
+          "usage": [
+            "Build the project first (Ctrl+F9).",
+            "Right click → SpotBugs → Analyze Selected Files / Module / Project Files.",
+            "For the extra rule jars, also select 'SpotBugs extra rule jars' in the list."
+          ],
+          "requirements": [
+            "The plugin has not been updated since 2024. The Marketplace lists it as compatible with 2026.2."
+          ]
+        },
+        "tr": {
+          "summary": "FindBugs'ın devamı. Derlenmiş Java sınıflarında null pointer, equals/hashCode tutarsızlığı, kapatılmayan kaynak, senkronizasyon hatası gibi kalıpları bulur. SpotBugs 4.8.6 motoru gömülüdür.",
+          "why": "Bytecode üzerinde çalıştığı için kaynak kod analizcilerinin kaçırdığı hataları yakalar. Find Security Bugs kurallarıyla güvenlik taraması da yapar.",
+          "changes": "'SpotBugs' araç penceresi ve sağ tık menüsünde 'SpotBugs' alt menüsü eklenir. Analiz yalnızca siz başlatınca çalışır, editörü yavaşlatmaz.",
+          "usage": [
+            "Önce projeyi derleyin (Ctrl+F9).",
+            "Sağ tık → SpotBugs → Analyze Selected Files / Module / Project Files.",
+            "Ek kural jar'ları için listedeki 'SpotBugs ek kural jar'ları' öğesini de seçin."
+          ],
+          "requirements": [
+            "Eklenti 2024'ten beri güncellenmedi. Marketplace 2026.2 ile uyumlu olarak gösteriyor."
+          ]
+        }
+      },
+      "zipRoot": "spotbugs-idea",
+      "unpackedSize": 20943504,
+      "size": 19543738,
+      "sha256": "e6aab232a13b6844f488daa5106d1dbfe3ff2b24fa4e792a18bd4d486f704f6e"
+    },
+    {
+      "id": "spotbugs-rules",
+      "name": {
+        "en": "SpotBugs extra rule jars",
+        "tr": "SpotBugs ek kural jar'ları"
+      },
+      "version": "findsecbugs 1.14.0 · sb-contrib 7.6.9",
+      "type": "rules",
+      "files": [
+        "spotbugs-rules/spotbugs-4.8/findsecbugs-plugin-1.14.0.jar",
+        "spotbugs-rules/spotbugs-4.8/sb-contrib-7.6.9.jar"
+      ],
+      "sinceBuild": null,
+      "untilBuild": null,
+      "category": "code-quality",
+      "offline": "full",
+      "recommended": true,
+      "images": [],
+      "text": {
+        "en": {
+          "summary": "Two rule packs for SpotBugs. Find Security Bugs adds 140+ security rules (SQL/command injection, XSS, weak cryptography, XXE, path traversal). sb-contrib adds hundreds of performance and API usage rules.",
+          "why": "The rule packs inside the SpotBugs plugin are old (findsecbugs 1.12.0, fb-contrib 7.6.0). These are newer versions compatible with SpotBugs 4.8.6.",
+          "changes": "The jars are copied to a 'spotbugs-rules' folder next to the plugin directory (Linux: ~/.local/share/JetBrains/spotbugs-rules, Windows: %APPDATA%\\JetBrains\\<IDE version>\\spotbugs-rules; full path below). They are not added to the IDE settings automatically; add them with the step below.",
+          "usage": [
+            "Settings › Tools › SpotBugs › Plugins → + → select the two jars in the copied folder.",
+            "Disable the older findsecbugs and fb-contrib versions bundled with the plugin.",
+            "For Maven builds see spotbugs-rules/spotbugs-4.9/ (README)."
+          ],
+          "requirements": [
+            "The SpotBugs plugin must be installed."
+          ]
+        },
+        "tr": {
+          "summary": "SpotBugs'a eklenen iki kural paketi. Find Security Bugs 140'tan fazla güvenlik kuralı getirir (SQL/komut enjeksiyonu, XSS, zayıf şifreleme, XXE, path traversal). sb-contrib yüzlerce performans ve API kullanım kuralı getirir.",
+          "why": "SpotBugs eklentisinin içindeki kural paketleri eski (findsecbugs 1.12.0, fb-contrib 7.6.0). Bunlar daha yeni ve SpotBugs 4.8.6 ile uyumlu sürümler.",
+          "changes": "Jar'lar eklenti dizininin yanındaki 'spotbugs-rules' klasörüne kopyalanır (Linux: ~/.local/share/JetBrains/spotbugs-rules, Windows: %APPDATA%\\JetBrains\\<IDE sürümü>\\spotbugs-rules; tam yol aşağıda). IDE ayarlarına kendiliğinden eklenmez, aşağıdaki adımla siz eklersiniz.",
+          "usage": [
+            "Settings › Tools › SpotBugs › Plugins → + → kopyalanan klasördeki iki jar'ı seçin.",
+            "Eklentinin içindeki eski findsecbugs ve fb-contrib sürümlerini devre dışı bırakın.",
+            "Maven derlemeleri için spotbugs-rules/spotbugs-4.9/ klasörüne bakın (README)."
+          ],
+          "requirements": [
+            "SpotBugs eklentisi kurulu olmalı."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pmd",
+      "name": {
+        "en": "PMD",
+        "tr": "PMD"
+      },
+      "version": "2.1.0",
+      "file": "plugins/PMDPlugin-2.1.0.zip",
+      "pluginId": "PMDPlugin",
+      "pluginVersion": "2.1.0",
+      "sinceBuild": "241",
+      "untilBuild": null,
+      "category": "code-quality",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/pmd-illustration.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Scans source code against rule sets without building: unused code, empty catch blocks, needless complexity, best practice violations. Bundles PMD 7.21.0 (Java and Kotlin).",
+          "why": "It automatically finds problems that code review often catches. Define your team's rule set in XML and everyone gets the same checks.",
+          "changes": "A 'Run PMD' submenu in the context menu and a 'PMD' tool window are added. Analysis only runs when you start it.",
+          "usage": [
+            "Right click → Run PMD → Pre Defined - Java → All or a category (bestpractices, errorprone, security…).",
+            "Your own rule set: Settings › Tools › PMD → RuleSets → + → local XML."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Kaynak kodu derlemeye gerek kalmadan kural setlerine göre tarar: kullanılmayan kod, boş catch, gereksiz karmaşıklık, en iyi uygulama ihlalleri. PMD 7.21.0 (Java ve Kotlin) gömülüdür.",
+          "why": "Kod incelemesinde sık yakalanan sorunları otomatik bulur. Takım kural setinizi XML ile tanımlayıp herkese aynı denetimi uygularsınız.",
+          "changes": "Sağ tık menüsüne 'Run PMD' alt menüsü ve 'PMD' araç penceresi eklenir. Analiz yalnızca siz başlatınca çalışır.",
+          "usage": [
+            "Sağ tık → Run PMD → Pre Defined - Java → All veya bir kategori (bestpractices, errorprone, security…).",
+            "Kendi kural setiniz: Settings › Tools › PMD → RuleSets → + → yerel XML."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "PMDPlugin",
+      "unpackedSize": 12280476,
+      "size": 11353013,
+      "sha256": "33525688a44c08f676367fd821b2b1bc29f11eb8048cba365519222c978ee70c"
+    },
+    {
+      "id": "generate-all-setter",
+      "name": {
+        "en": "GenerateAllSetter",
+        "tr": "GenerateAllSetter"
+      },
+      "version": "2.8.6",
+      "file": "plugins/GenerateAllSetter-2.8.6.zip",
+      "pluginId": "com.bruce.intellijplugin.generatesetter",
+      "pluginVersion": "2.8.6",
+      "sinceBuild": "213",
+      "untilBuild": null,
+      "category": "java-spring-data",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/generate-all-setter-1.gif",
+        "docs/images/generate-all-setter-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Generates all setXxx(...) calls for an object at once. Generates DTO ↔ Entity converter code.",
+          "why": "Filling objects with dozens of fields or preparing test data no longer means typing setters one by one. Works with Lombok.",
+          "changes": "'Generate all setter…' options are added to the Alt+Enter menu on variables. Nothing else visibly changes.",
+          "usage": [
+            "On a line like User user = new User(); press Alt+Enter on the variable → Generate all setter with default value."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Bir nesne için tüm setXxx(...) çağrılarını tek seferde üretir. DTO ↔ Entity dönüştürücü kodu oluşturur.",
+          "why": "Onlarca alanı olan nesneleri doldururken veya test verisi hazırlarken setter'ları tek tek yazmaktan kurtulursunuz. Lombok ile de çalışır.",
+          "changes": "Değişken üzerinde Alt+Enter menüsüne 'Generate all setter…' seçenekleri eklenir. Başka görünür bir değişiklik olmaz.",
+          "usage": [
+            "User user = new User(); satırında değişkenin üstünde Alt+Enter → Generate all setter with default value."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "GenerateAllSetter",
+      "unpackedSize": 223804,
+      "size": 192521,
+      "sha256": "5f0de6f0fd5d24802daa9ef591de4b080e106ec41b15b88ad54bafcdffd17a99"
+    },
+    {
+      "id": "spring-boot-assistant",
+      "name": {
+        "en": "Spring Boot Assistant",
+        "tr": "Spring Boot Assistant"
+      },
+      "version": "601.0.7",
+      "file": "plugins/spring-boot-assistant-601.0.7_242.zip",
+      "pluginId": "dev.flikas.idea.spring.boot.assistant.plugin",
+      "pluginVersion": "601.0.7+242",
+      "sinceBuild": "242",
+      "untilBuild": null,
+      "category": "java-spring-data",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/spring-boot-assistant-1.gif"
+      ],
+      "text": {
+        "en": {
+          "summary": "Auto-completion, documentation and go-to-source for Spring Boot configuration keys in application.properties and application.yml.",
+          "why": "Spring support is limited in the free tier of IntelliJ IDEA. This plugin brings the most needed help for configuration files.",
+          "changes": "A suggestion list appears while typing in application.yml and properties files; Ctrl+Q shows the description.",
+          "usage": [
+            "The project's dependencies must be resolved (available locally).",
+            "Start typing 'server.' in application.yml → suggestions appear."
+          ],
+          "requirements": [
+            "IDEA's YAML and Properties components must be enabled (they are by default)."
+          ]
+        },
+        "tr": {
+          "summary": "application.properties ve application.yml dosyalarında Spring Boot ayar anahtarları için otomatik tamamlama, açıklama ve kaynağa gitme.",
+          "why": "IDEA'nın ücretsiz sürümünde Spring desteği sınırlıdır. Bu eklenti ayar dosyalarında en çok ihtiyaç duyulan desteği getirir.",
+          "changes": "application.yml ve properties dosyalarında yazarken öneri listesi çıkar, Ctrl+Q ile açıklama görünür.",
+          "usage": [
+            "Projenin bağımlılıkları çözülmüş olmalı (yerel depoda).",
+            "application.yml içinde 'server.' yazmaya başlayın → öneriler gelir."
+          ],
+          "requirements": [
+            "IDEA'nın YAML ve Properties bileşenleri açık olmalı (varsayılan olarak açıktır)."
+          ]
+        }
+      },
+      "zipRoot": "plugin",
+      "unpackedSize": 8384590,
+      "size": 7534079,
+      "sha256": "391f77c7d08e97cca736bd2126e36f6d9a42e1c8a8b991d1a7424c4015f29d77"
+    },
+    {
+      "id": "mybatisx",
+      "name": {
+        "en": "MyBatisX",
+        "tr": "MyBatisX"
+      },
+      "version": "1.7.9",
+      "file": "plugins/MybatisX-1.7.9.zip",
+      "pluginId": "com.baomidou.plugin.idea.mybatisx",
+      "pluginVersion": "1.7.9",
+      "sinceBuild": "251",
+      "untilBuild": "263.*",
+      "category": "java-spring-data",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/mybatisx-1.gif"
+      ],
+      "text": {
+        "en": {
+          "summary": "Navigation between MyBatis Mapper interfaces and XML mappers, generating missing SQL statements, #{} parameter completion.",
+          "why": "In MyBatis projects you jump between a method and its SQL with one click.",
+          "changes": "Bird icons are added to the gutter of mapper interfaces and XML files.",
+          "usage": [
+            "Click the icon next to a method → jumps to its XML counterpart.",
+            "Alt+Enter on a method name → Generate statement."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "MyBatis Mapper arayüzü ile XML mapper arasında gezinme, eksik SQL ifadesi üretme, #{} parametre tamamlama.",
+          "why": "MyBatis kullanan projelerde metot ile SQL arasında tek tıkla gidip gelirsiniz.",
+          "changes": "Mapper arayüzlerinde ve XML dosyalarında satır kenarına (gutter) kuş simgeleri eklenir.",
+          "usage": [
+            "Metodun yanındaki simgeye tıklayın → XML'deki karşılığına gider.",
+            "Metot adında Alt+Enter → Generate statement."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "MybatisX",
+      "unpackedSize": 4377198,
+      "size": 3904888,
+      "sha256": "8e9822d046077434128e29fd47851d80ec562d470a391fe20eaea57426430feb"
+    },
+    {
+      "id": "dbn",
+      "name": {
+        "en": "Database Navigator (DBN)",
+        "tr": "Database Navigator (DBN)"
+      },
+      "version": "4.1.0.4",
+      "file": "plugins/DBN-4.1.0.4.zip",
+      "pluginId": "DBN",
+      "pluginVersion": "4.1.0.4",
+      "sinceBuild": "231.9423.9",
+      "untilBuild": "263.*",
+      "category": "java-spring-data",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/dbn-1.png",
+        "docs/images/dbn-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "A full database client: schema browser, SQL console, table data editor, PL/SQL, explain plan. Oracle, PostgreSQL, MySQL and SQLite JDBC drivers are bundled.",
+          "why": "Ultimate's Database Tools are not available in the free tier. With DBN you do database work without leaving the IDE.",
+          "changes": "'DB Browser' and 'DB Execution Console' tool windows and a 'DB Navigator' menu are added. .sql files open with DBN's SQL support.",
+          "usage": [
+            "View › Tool Windows › DB Browser → + → connection type → host/port/user.",
+            "Right click a connection → Open SQL Console → run with Ctrl+Enter.",
+            "Other databases: Driver source: External → point to the driver jar."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Tam bir veritabanı istemcisi: şema gezgini, SQL konsolu, tablo verisi düzenleme, PL/SQL, sorgu planı. Oracle, PostgreSQL, MySQL ve SQLite JDBC sürücüleri gömülüdür.",
+          "why": "Ultimate'taki Database Tools ücretsiz sürümde yoktur. DBN ile veritabanı işlerini IDE'den çıkmadan yaparsınız.",
+          "changes": "'DB Browser' ve 'DB Execution Console' araç pencereleri ile 'DB Navigator' menüsü eklenir. .sql dosyaları DBN'in SQL desteğiyle açılır.",
+          "usage": [
+            "View › Tool Windows › DB Browser → + → bağlantı türü → host/port/kullanıcı.",
+            "Bağlantıya sağ tık → Open SQL Console → Ctrl+Enter ile çalıştır.",
+            "Başka bir veritabanı için Driver source: External → sürücü jar'ını gösterin."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "DBNavigator",
+      "unpackedSize": 94114709,
+      "size": 83573955,
+      "sha256": "35c57994a9256b5909122734adb14f0afc143ba9364d8a3ff70dcace4e057a5e"
+    },
+    {
+      "id": "csv-editor",
+      "name": {
+        "en": "CSV Editor",
+        "tr": "CSV Editor"
+      },
+      "version": "252.56.1",
+      "file": "plugins/intellij-csv-validator-252.56.1.zip",
+      "pluginId": "net.seesharpsoft.intellij.plugins.csv",
+      "pluginVersion": "252.56.1",
+      "sinceBuild": "252",
+      "untilBuild": null,
+      "category": "files-diagrams",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/csv-editor-1.png",
+        "docs/images/csv-editor-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Adds syntax validation, column highlighting and table view editing to CSV/TSV files.",
+          "why": "You view and edit CSV data as a table inside the IDE without needing Excel.",
+          "changes": "A 'Table Editor' tab is added at the bottom of the editor for .csv and .tsv files.",
+          "usage": [
+            "Open a .csv file → Table Editor tab at the bottom.",
+            "Settings: Settings › Editor › CSV/TSV/PSV"
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "CSV/TSV dosyalarına sözdizimi denetimi, sütun vurgusu ve tablo görünümünde düzenleme ekler.",
+          "why": "CSV verisini Excel'e ihtiyaç duymadan IDE içinde tablo olarak görür ve düzenlersiniz.",
+          "changes": ".csv ve .tsv dosyaları açıldığında editörün altına 'Table Editor' sekmesi eklenir.",
+          "usage": [
+            "Bir .csv dosyası açın → alttaki Table Editor sekmesi.",
+            "Ayarlar: Settings › Editor › CSV/TSV/PSV"
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "intellij-csv-validator",
+      "unpackedSize": 674001,
+      "size": 609805,
+      "sha256": "73d6df22207ecf83287a546eda726eb1c7a2405b75dd90102b7a397d8ded3b3b"
+    },
+    {
+      "id": "rainbow-csv",
+      "name": {
+        "en": "Rainbow CSV",
+        "tr": "Rainbow CSV"
+      },
+      "version": "2.0.2",
+      "file": "plugins/RainbowCSV.zip",
+      "pluginId": "com.andrey4623.rainbowcsv",
+      "pluginVersion": "2.0.2",
+      "sinceBuild": "221.0",
+      "untilBuild": null,
+      "category": "files-diagrams",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/rainbow-csv-1.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Shows each column of a CSV file in a different color.",
+          "why": "In CSV files with many columns you can tell which value belongs to which column even in the plain text view.",
+          "changes": "Columns in CSV files are colored. Can be used together with CSV Editor.",
+          "usage": [
+            "Works automatically."
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "CSV dosyalarında her sütunu farklı renkle gösterir.",
+          "why": "Çok sütunlu CSV'lerde hangi değerin hangi sütuna ait olduğunu düz metin görünümünde bile anlarsınız.",
+          "changes": "CSV dosyalarında sütunlar renkli görünür. CSV Editor ile birlikte kullanılabilir.",
+          "usage": [
+            "Kendiliğinden çalışır."
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "Rainbow CSV",
+      "unpackedSize": 525586,
+      "size": 476550,
+      "sha256": "ccd5fe7184267ea48531dbcdb0e3038d4ce1fced043d2e9d7a3b9c6feac16d5b"
+    },
+    {
+      "id": "plantuml",
+      "name": {
+        "en": "PlantUML Integration",
+        "tr": "PlantUML Integration"
+      },
+      "version": "7.15.0",
+      "file": "plugins/plantuml4idea-7.15.0-IJ2023.2.zip",
+      "pluginId": "PlantUML integration",
+      "pluginVersion": "7.15.0-IJ2023.2",
+      "sinceBuild": "232.6734",
+      "untilBuild": null,
+      "category": "files-diagrams",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/plantuml-1.png",
+        "docs/images/plantuml-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Live preview for .puml files and @startuml blocks: class, sequence, activity, component, state diagrams. PlantUML (MIT) is bundled.",
+          "why": "You write diagrams as text and keep them under version control next to the code.",
+          "changes": "'PlantUML File' is added to the New menu and a 'PlantUML' preview tool window is added.",
+          "usage": [
+            "File › New › PlantUML File.",
+            "Live preview in the PlantUML tool window on the right.",
+            "Without Graphviz add '!pragma layout smetana' at the top of the diagram."
+          ],
+          "requirements": [
+            "Some diagram types need Graphviz (otherwise the built-in smetana layout can be used)."
+          ]
+        },
+        "tr": {
+          "summary": ".puml dosyalarını ve @startuml blokları canlı önizler: sınıf, sıra, aktivite, bileşen, durum diyagramları. PlantUML (MIT) gömülüdür.",
+          "why": "Diyagramları metin olarak yazıp kodla birlikte sürüm kontrolünde tutarsınız.",
+          "changes": "New menüsüne 'PlantUML File' ve 'PlantUML' önizleme araç penceresi eklenir.",
+          "usage": [
+            "File › New › PlantUML File.",
+            "Sağdaki PlantUML aracında canlı önizleme.",
+            "Graphviz yoksa diyagramın başına '!pragma layout smetana' ekleyin."
+          ],
+          "requirements": [
+            "Bazı diyagram türleri Graphviz ister (yoksa smetana yerleşik düzenleyicisi kullanılabilir)."
+          ]
+        }
+      },
+      "zipRoot": "plantuml4idea",
+      "unpackedSize": 26607150,
+      "size": 25030754,
+      "sha256": "9f352efcaedbfcab59b336110d17792974c22c6f568c847b6aeb1c1b274f2f17"
+    },
+    {
+      "id": "mermaid",
+      "name": {
+        "en": "Mermaid Visualizer",
+        "tr": "Mermaid Visualizer"
+      },
+      "version": "1.14.0",
+      "file": "plugins/MermaidVisualizer-1.14.0.zip",
+      "pluginId": "com.alextdev.MermaidVisualizer",
+      "pluginVersion": "1.14.0",
+      "sinceBuild": "253",
+      "untilBuild": null,
+      "category": "files-diagrams",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/mermaid-1.png",
+        "docs/images/mermaid-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Renders Mermaid diagrams (flowchart, sequence, class, ER, Gantt…) inside the IDE. mermaid.js is bundled; nothing is loaded from a CDN.",
+          "why": "You see the result of ```mermaid blocks in READMEs and docs while you write them.",
+          "changes": "```mermaid blocks are rendered as diagrams in the Markdown preview.",
+          "usage": [
+            "Write a ```mermaid block in a Markdown file → open the preview."
+          ],
+          "requirements": [
+            "IDEA's Markdown component must be enabled (it is by default)."
+          ]
+        },
+        "tr": {
+          "summary": "Mermaid diyagramlarını (akış, sıra, sınıf, ER, Gantt…) IDE içinde çizer. mermaid.js gömülüdür, CDN'e bağlanmaz.",
+          "why": "README ve dokümanlardaki ```mermaid bloklarını yazarken sonucu anında görürsünüz.",
+          "changes": "Markdown önizlemesinde ```mermaid blokları diyagram olarak görünür.",
+          "usage": [
+            "Markdown dosyasına ```mermaid bloğu yazın → önizlemeyi açın."
+          ],
+          "requirements": [
+            "IDEA'nın Markdown bileşeni açık olmalı (varsayılan olarak açıktır)."
+          ]
+        }
+      },
+      "zipRoot": "MermaidVisualizer",
+      "unpackedSize": 3785217,
+      "size": 3629916,
+      "sha256": "21712b9f02ba4fe151bea5bfbfc41219f0c244ade89e8459ebb5446267c761d6"
+    },
+    {
+      "id": "atom-material-icons",
+      "name": {
+        "en": "Atom Material Icons",
+        "tr": "Atom Material Icons"
+      },
+      "version": "210.0.2",
+      "file": "plugins/Atom_Material_Icons-210.0.2.zip",
+      "pluginId": "com.mallowigi",
+      "pluginVersion": "210.0.2",
+      "sinceBuild": "262.0",
+      "untilBuild": "271.0",
+      "category": "appearance",
+      "offline": "full",
+      "recommended": true,
+      "images": [
+        "docs/images/atom-material-icons-1.png",
+        "docs/images/atom-material-icons-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Replaces file and folder icons in the project tree with distinctive, colorful icons per file type.",
+          "why": "You recognize pom.xml, Dockerfile, .yml, test folders and other files much faster in the project tree.",
+          "changes": "After installing, ALL icons in the project tree and editor tabs change. If you do not like it, simply disable the plugin.",
+          "usage": [
+            "Works automatically.",
+            "Settings: Settings › Appearance & Behavior › Atom Material Icons"
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Proje ağacındaki dosya ve klasör ikonlarını dosya türüne göre ayırt edici, renkli ikonlarla değiştirir.",
+          "why": "pom.xml, Dockerfile, .yml, test klasörü gibi dosyaları proje ağacında çok daha hızlı ayırt edersiniz.",
+          "changes": "Kurulumdan sonra proje ağacındaki ve sekmelerdeki TÜM ikonlar değişir. Beğenmezseniz eklentiyi devre dışı bırakmanız yeterli.",
+          "usage": [
+            "Kendiliğinden çalışır.",
+            "Ayarlar: Settings › Appearance & Behavior › Atom Material Icons"
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "Atom Material Icons",
+      "unpackedSize": 16945903,
+      "size": 14612344,
+      "sha256": "43a2a7ed8103be89d2b904c3c9d242a3356c87e5dee4c6c121035560b11813ef"
+    },
+    {
+      "id": "one-dark-theme",
+      "name": {
+        "en": "One Dark Theme",
+        "tr": "One Dark Theme"
+      },
+      "version": "6.2.5",
+      "file": "plugins/one-dark-theme-6.2.5.zip",
+      "pluginId": "com.markskelton.one-dark-theme",
+      "pluginVersion": "6.2.5",
+      "sinceBuild": "253",
+      "untilBuild": null,
+      "category": "appearance",
+      "offline": "full",
+      "recommended": false,
+      "images": [
+        "docs/images/one-dark-theme-1.png",
+        "docs/images/one-dark-theme-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Brings the popular 'One Dark' dark theme from the Atom editor to the IDE.",
+          "why": "A dark theme that is easy on the eyes with balanced contrast.",
+          "changes": "'One Dark' is added to the theme list. Your current theme does not change unless you select it.",
+          "usage": [
+            "Settings › Appearance & Behavior › Appearance › Theme → One Dark"
+          ],
+          "requirements": []
+        },
+        "tr": {
+          "summary": "Atom editörünün popüler 'One Dark' koyu temasını IDE'ye getirir.",
+          "why": "Göz yormayan, kontrastı dengeli bir koyu tema.",
+          "changes": "Tema listesine 'One Dark' eklenir. Siz seçmedikçe mevcut temanız değişmez.",
+          "usage": [
+            "Settings › Appearance & Behavior › Appearance › Theme → One Dark"
+          ],
+          "requirements": []
+        }
+      },
+      "zipRoot": "one-dark-theme",
+      "unpackedSize": 26124,
+      "size": 30919,
+      "sha256": "46d9548d0844e3e27a9056ae54d055835e0ba2bcd88380b7f422ce915a399afb"
+    },
+    {
+      "id": "copilot-linux",
+      "name": {
+        "en": "GitHub Copilot (Linux x64)",
+        "tr": "GitHub Copilot (Linux x64)"
+      },
+      "version": "1.21.1",
+      "file": "plugins/optional/github-copilot-intellij-1.21.1-261-linux-x64.zip",
+      "pluginId": "com.github.copilot",
+      "pluginVersion": "1.21.1-261-linux-x64",
+      "sinceBuild": "261",
+      "untilBuild": null,
+      "category": "optional",
+      "offline": "none",
+      "recommended": false,
+      "optional": true,
+      "platform": "linux-x64",
+      "images": [
+        "docs/images/copilot-1.png",
+        "docs/images/copilot-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "AI-assisted code completion and chat.",
+          "why": "Speeds up writing code in environments with internet access.",
+          "changes": "A Copilot icon in the status bar and a chat tool window are added. No suggestions until you sign in.",
+          "usage": [
+            "Copilot icon in the bottom right → Login to GitHub."
+          ],
+          "requirements": [
+            "Needs a GitHub account and a Copilot subscription.",
+            "INTERNET ACCESS to GitHub's servers is required. It does not work fully offline."
+          ]
+        },
+        "tr": {
+          "summary": "Yapay zekâ destekli kod tamamlama ve sohbet.",
+          "why": "İnternet erişimi olan ortamlarda kod yazmayı hızlandırır.",
+          "changes": "Durum çubuğuna Copilot simgesi ve sohbet araç penceresi eklenir. Giriş yapılmadan öneri vermez.",
+          "usage": [
+            "Sağ alttaki Copilot simgesi → Login to GitHub."
+          ],
+          "requirements": [
+            "GitHub hesabı ve Copilot aboneliği gerekir.",
+            "GitHub sunucularına İNTERNET ERİŞİMİ şarttır. Tamamen internetsiz ortamda çalışmaz."
+          ]
+        }
+      },
+      "zipRoot": "github-copilot-intellij",
+      "unpackedSize": 345033637,
+      "size": 213589230,
+      "sha256": "a6d2d4818fe7f59607a941afcf6be5356055e2c81db4735696004b6d96444b6c",
+      "parts": 3
+    },
+    {
+      "id": "copilot-windows",
+      "name": {
+        "en": "GitHub Copilot (Windows x64)",
+        "tr": "GitHub Copilot (Windows x64)"
+      },
+      "version": "1.21.1",
+      "file": "plugins/optional/github-copilot-intellij-1.21.1-261-windows-x64.zip",
+      "pluginId": "com.github.copilot",
+      "pluginVersion": "1.21.1-261-windows-x64",
+      "sinceBuild": "261",
+      "untilBuild": null,
+      "category": "optional",
+      "offline": "none",
+      "recommended": false,
+      "optional": true,
+      "platform": "windows-x64",
+      "images": [
+        "docs/images/copilot-1.png",
+        "docs/images/copilot-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "AI-assisted code completion and chat.",
+          "why": "Speeds up writing code in environments with internet access.",
+          "changes": "A Copilot icon in the status bar and a chat tool window are added. No suggestions until you sign in.",
+          "usage": [
+            "Copilot icon in the bottom right → Login to GitHub."
+          ],
+          "requirements": [
+            "Needs a GitHub account and a Copilot subscription.",
+            "INTERNET ACCESS to GitHub's servers is required. It does not work fully offline."
+          ]
+        },
+        "tr": {
+          "summary": "Yapay zekâ destekli kod tamamlama ve sohbet.",
+          "why": "İnternet erişimi olan ortamlarda kod yazmayı hızlandırır.",
+          "changes": "Durum çubuğuna Copilot simgesi ve sohbet araç penceresi eklenir. Giriş yapılmadan öneri vermez.",
+          "usage": [
+            "Sağ alttaki Copilot simgesi → Login to GitHub."
+          ],
+          "requirements": [
+            "GitHub hesabı ve Copilot aboneliği gerekir.",
+            "GitHub sunucularına İNTERNET ERİŞİMİ şarttır. Tamamen internetsiz ortamda çalışmaz."
+          ]
+        }
+      },
+      "zipRoot": "github-copilot-intellij",
+      "unpackedSize": 241217210,
+      "size": 172419968,
+      "sha256": "bef3f5fb2d14ef6df35b9f158534c4485df5cfc5a56373b1bd4be5af29010a2f",
+      "parts": 2
+    },
+    {
+      "id": "claude-code",
+      "name": {
+        "en": "Claude Code [Beta]",
+        "tr": "Claude Code [Beta]"
+      },
+      "version": "0.1.14-beta",
+      "file": "plugins/optional/claude-code-jetbrains-plugin-0.1.14-beta.zip",
+      "pluginId": "com.anthropic.code.plugin",
+      "pluginVersion": "0.1.14-beta",
+      "sinceBuild": "242",
+      "untilBuild": null,
+      "category": "optional",
+      "offline": "none",
+      "recommended": false,
+      "optional": true,
+      "images": [
+        "docs/images/claude-code-1.png",
+        "docs/images/claude-code-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Connects Anthropic's Claude Code command line tool to the IDE: shows diffs in the IDE and shares the selected code.",
+          "why": "If you use Claude Code, you review its changes in the IDE's diff viewer.",
+          "changes": "A Claude Code button is added to the toolbar. Running 'claude' in the IDE terminal connects automatically.",
+          "usage": [
+            "Run the 'claude' command in the IDE terminal."
+          ],
+          "requirements": [
+            "The 'claude' CLI must be installed.",
+            "Network access to the Anthropic API or an internal endpoint is required."
+          ]
+        },
+        "tr": {
+          "summary": "Anthropic'in Claude Code komut satırı aracını IDE'ye bağlar: diff'leri IDE'de gösterir, seçili kodu paylaşır.",
+          "why": "Claude Code kullanıyorsanız değişiklikleri IDE'nin diff görünümünde incelemenizi sağlar.",
+          "changes": "Araç çubuğuna Claude Code düğmesi eklenir. IDE terminalinde 'claude' çalıştırınca otomatik bağlanır.",
+          "usage": [
+            "IDE terminalinde 'claude' komutunu çalıştırın."
+          ],
+          "requirements": [
+            "Makinede 'claude' CLI kurulu olmalı.",
+            "Anthropic API'sine veya kurum içi bir uç noktaya ağ erişimi şarttır."
+          ]
+        }
+      },
+      "zipRoot": "claude-code-jetbrains-plugin",
+      "unpackedSize": 12430782,
+      "size": 11343522,
+      "sha256": "bac67aaf4619ace1113dfecc3bc6aaf5c014db9c9682039ae9abcd106c338096"
+    },
+    {
+      "id": "line-profiler",
+      "name": {
+        "en": "Line Profiler",
+        "tr": "Line Profiler"
+      },
+      "version": "1.10.0",
+      "file": "plugins/optional/pycharm-lineprofiler-1.10.0.zip",
+      "pluginId": "nl.jusx.pycharm.lineprofiler",
+      "pluginVersion": "1.10.0",
+      "sinceBuild": "242",
+      "untilBuild": null,
+      "category": "optional",
+      "offline": "partial",
+      "recommended": false,
+      "optional": true,
+      "images": [
+        "docs/images/line-profiler-1.png",
+        "docs/images/line-profiler-2.png"
+      ],
+      "text": {
+        "en": {
+          "summary": "Profiles Python code line by line and shows each line's time in the editor with colors.",
+          "why": "You find exactly which lines of Python code are slow.",
+          "changes": "A 'Profile Lines' run option and result coloring are added for Python files.",
+          "usage": [
+            "With the Python plugin and the line_profiler package installed, run profiling from the Run menu."
+          ],
+          "requirements": [
+            "The IDE must have the Python plugin (com.intellij.modules.python). Without it this plugin does NOT load.",
+            "The line_profiler Python package must be installed in the project."
+          ]
+        },
+        "tr": {
+          "summary": "Python kodunu satır satır profiller, her satırın süresini editörde renkli gösterir.",
+          "why": "Python kodundaki yavaş satırları tam olarak bulursunuz.",
+          "changes": "Python dosyalarında 'Profile Lines' çalıştırma seçeneği ve sonuç renklendirmesi eklenir.",
+          "usage": [
+            "Python eklentisi ve line_profiler paketi kuruluysa Run menüsünden profil çalıştırın."
+          ],
+          "requirements": [
+            "IDE'de Python eklentisi (com.intellij.modules.python) bulunmalı. Yoksa bu eklenti YÜKLENMEZ.",
+            "Projede line_profiler Python paketi kurulu olmalı."
+          ]
+        }
+      },
+      "zipRoot": "pycharm-lineprofiler",
+      "unpackedSize": 2099895,
+      "size": 1941044,
+      "sha256": "85032ae5856638696caa6506ffac3047f3938d35f0d0441536a38c2863a5e602"
+    }
+  ]
+}
